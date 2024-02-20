@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Welcome"
+  navbar:
+    left:
+    - mysite.qmd
+    - skills.qmd
+    - Projects&Internships.qmd
+    
+format:
+  html:
+    theme: sketchy
